@@ -35,7 +35,7 @@ function init() {
         
         var placemark = new ymaps.Placemark([x, y], {
 			content: text,
-			balloonContent: text + " тут!Э"
+			balloonContent: text + " тут!"
 		}, {
             iconLayout: 'default#image',
             iconImageHref: getIcon(type),
